@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 # import numpy as np
-st.sidebar.selectbox("")
+# st.sidebar.selectbox("")
 from main import get_infectious_data
 data, columns = get_infectious_data("infection_case")
 # print(data, columns)
